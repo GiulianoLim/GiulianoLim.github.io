@@ -15,7 +15,7 @@ body {
 
 
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 950px) {
   .portfolio-grid {
     grid-template-columns: 1fr;
   }

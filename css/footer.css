@@ -26,6 +26,10 @@
    font-weight: 500;
  }
 
+ a .phone-number {
+  color: black;
+ }
+
  .social-icon {
   height: 40px;
   margin-left: 40px;
@@ -37,3 +41,4 @@
   font-size: 18px;
   font-weight: 700;
  }
+

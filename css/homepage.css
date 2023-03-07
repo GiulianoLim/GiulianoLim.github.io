@@ -7,7 +7,8 @@
 
 .landing-page-text {
   width: 320px; 
-  font-size: 16px; 
+  font-size: 16px;
+  line-height: 24px; 
 }
 
 .my-photo {
@@ -22,7 +23,8 @@
   font-family: titan one, roboto, arial;
   color: #251749;
   font-size: 36px;
-  width: 350px;  
+  width: 350px;
+  margin-bottom: 20px; 
 }
 
 .title-medium {
@@ -31,17 +33,6 @@
   margin-bottom: 32px;
   margin-top: 8px;
   color: #251749;
-}
-
-
-.call-to-action:hover {
-  background-color: #E85F5C;
-  color: rgb(240, 240, 228);
-}
-
-.call-to-action:active {
-  background-color: #e67876;
-  border: 2px solid #e67876;
 }
 
 .section-nav {
