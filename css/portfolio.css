@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  row-gap: 40px;
+  column-gap: 40px;
+  margin-left: 12%;
+  margin-right: 12%; 
+  margin-bottom: 100px;
+}
+
+
+
+@media screen and (max-width: 940px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+.title-big {
+  font-family: titan one, roboto, arial;
+  font-size: 36px;
+  margin: 100px 0px 60px 0px;
+  color: #251749;
+  text-align: center;
+}
+
+.title-medium {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.overlay {
+  display: none;
+}
+
+.purple-item {
+  display: flex;
+  background-color: #251749;
+  color: rgb(240, 240, 228);
+  padding: 20px;
+  gap: 20px;
+  max-width: 500px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+.purple-item:hover .overlay,
+.white-item:hover .overlay {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 99;
+
+}
+
+.purple-item:hover .button-1,
+.white-item:hover .button-1 {
+  padding: 12px 12px;
+  border: none;
+  background-color: #E85F5C;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.purple-item:hover .button-1:hover,
+.white-item:hover .button-1:hover{
+  background-color: #e74543;
+}
+
+.purple-item:hover .button-1:active,
+.white-item:hover .button-1:active {
+  background-color: #e73b38;
+}
+
+
+.purple-item-text {
+  font-size: 14px;
+  width: 400px; 
+}
+
+.purple-item img {
+  width: 100%;
+  max-width: 250px;
+}
+
+
+.white-item {
+  display: flex;
+  background-color: rgb(240, 240, 228);
+  color: black;
+  padding: 20px;
+  gap: 20px;
+  max-width: 500px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.white-item .title-medium {
+  color: #251749;
+}
+
+.white-item-text {
+  font-size: 14px;
+  width: 400px; 
+}
+
+.white-item img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.img-sunnee {
+  width: 100%;
+  max-width: 170px;
+  margin-top: 45px;
+}
+
+.img-wireframes {
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  max-width: 170px;
+}
+
+.img-mobile {
+  width: 100%;
+  max-width: 170px;
+  margin-top: 10px;
+}
+
+.img-discovery1 {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 180px;
+}
+
+.img-discovery2 {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 180px;
+}

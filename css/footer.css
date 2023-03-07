@@ -1,0 +1,39 @@
+.footer .title-medium {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+ }
+ 
+ .footer {
+   padding-top: 30px;
+   border-top: 2px solid rgba(0,0,0, 0.15)
+ 
+ }
+ .contacts {
+   display: flex; 
+   gap: 100px;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .phone-number,
+ .email-address {
+   display: flex; 
+   align-items: center;
+   gap: 15px;
+   font-size: 18px;
+   font-weight: 500;
+ }
+
+ .social-icon {
+  height: 40px;
+  margin-left: 40px;
+ }
+
+ .github-link {
+  margin-left: 30px;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+ }

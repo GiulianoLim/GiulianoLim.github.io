@@ -1,0 +1,107 @@
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+
+.landing-page-text {
+  width: 320px; 
+  font-size: 16px; 
+}
+
+.my-photo {
+  object-fit: cover;
+  width: 300px;
+  height: 550px;
+  margin-bottom: 20px;
+  border-radius: 65px;
+}
+
+.title-big {
+  font-family: titan one, roboto, arial;
+  color: #251749;
+  font-size: 36px;
+  width: 350px;  
+}
+
+.title-medium {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  margin-top: 8px;
+  color: #251749;
+}
+
+
+.call-to-action:hover {
+  background-color: #E85F5C;
+  color: rgb(240, 240, 228);
+}
+
+.call-to-action:active {
+  background-color: #e67876;
+  border: 2px solid #e67876;
+}
+
+.section-nav {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 10%;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+
+.portfolio,
+.contatti, 
+.cv {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #251749;
+  color: rgb(240, 240, 228);
+  height: 200px;
+  line-height: 200px;
+  box-shadow: 1px 1px 5px rgba(0,0,0, 0.7);
+  transition:  background-color 0.15s;  
+  text-decoration: none;
+}
+
+.portfolio:hover,
+.contatti:hover, 
+.cv:hover {
+  background-color: #321f64;
+ 
+}
+
+.cv {
+  position: relative;
+}
+
+
+.highlighted-text {
+  font-size: 14px;
+  position: absolute; 
+  top: 26px;
+  left: 56px;
+  color: #e67876;
+}
+
+.text-below {
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  margin-top: 160px;
+  margin-bottom: 120px;
+}
+
+.text-below .title-medium {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.homepage-text {
+  width: 320px;
+}
