@@ -13,6 +13,13 @@ header {
   z-index: 100;
 }
 
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+  color: #251749;
+  text-decoration: none;
+}
 
 nav {
   display: flex;
@@ -38,3 +45,4 @@ nav {
   padding-right: 150px;
   padding-left: 30%;
 }
+
