@@ -1,20 +1,33 @@
-.footer .title-medium {
+
+ .footer {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   padding-top: 50px;
+   border-top: 2px solid rgba(0,0,0, 0.15);
+   flex: 1 1;
+ }
+
+ .contacts-section {
+  padding-left: 10%;
+ }
+
+ .contacts-section .title-medium {
   font-size: 32px;
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
  }
- 
- .footer {
-   padding-top: 30px;
-   border-top: 2px solid rgba(0,0,0, 0.15)
- 
- }
+
+ .footer-text {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
  .contacts {
    display: flex; 
    gap: 100px;
    align-items: center;
-   justify-content: center;
  }
  
  .phone-number,
@@ -26,15 +39,43 @@
    font-weight: 500;
  }
 
+  .social-section {
+    padding-left: 10%;
+    padding-right: 10%;
+  } 
+
+  .social-section .title-medium {
+    font-size: 32px;
+    display: flex;
+    margin-bottom: 20px;
+   }
+
+ .social-links {
+  display: flex; 
+  gap: 80px;
+}
+
  .social-icon {
+  display: flex;
   height: 40px;
-  margin-left: 40px;
+  align-items: center;
+  margin-top: 30px;
  }
 
  .github-link {
-  margin-left: 30px;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
  }
+
+.footer a {
+  color: #251749;
+  font-weight: 700;
+}
+
+.footer a:hover {
+  color: #422982;
+}
+
+
 

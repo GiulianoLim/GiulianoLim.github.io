@@ -15,13 +15,13 @@ body {
 
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1500px) {
   .portfolio-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
