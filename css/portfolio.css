@@ -59,7 +59,9 @@ body {
 
 
 .purple-item:hover .overlay,
-.white-item:hover .overlay {
+.white-item:hover .overlay
+.purple-item:active .overlay,
+.white-item:active .overlay {
   display: flex;
   align-items: center; 
   justify-content: center;
