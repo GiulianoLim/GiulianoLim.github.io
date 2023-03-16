@@ -22,13 +22,13 @@
 .title-big {
   font-family: titan one, roboto, arial;
   color: #251749;
-  font-size: 36px;
-  width: 350px;
+  font-size: 42px;
+  width: 400px;
   margin-bottom: 20px; 
 }
 
 .title-medium {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 32px;
   margin-top: 8px;
