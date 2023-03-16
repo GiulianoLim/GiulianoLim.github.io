@@ -61,6 +61,16 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 980px) {
+  .contatti {
+    display: none;
+  }
+
+  .section-nav {
+    grid-template-columns: 200px 200px;
+  }
+}
+
 .portfolio:hover,
 .contatti:hover, 
 .cv:hover {
