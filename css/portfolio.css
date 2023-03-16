@@ -19,7 +19,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1440px) {
   .portfolio-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
