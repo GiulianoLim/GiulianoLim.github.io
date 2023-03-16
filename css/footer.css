@@ -12,10 +12,12 @@
   padding-left: 10%;
  }
 
- .contacts-section .title-medium {
+ .contacts-section .title-medium,
+ .social-section .title-medium {
   font-size: 32px;
   display: flex;
   margin-bottom: 20px;
+  color: #251749;
  }
 
  .footer-text {
@@ -43,12 +45,6 @@
     padding-left: 10%;
     padding-right: 10%;
   } 
-
-  .social-section .title-medium {
-    font-size: 32px;
-    display: flex;
-    margin-bottom: 20px;
-   }
 
  .social-links {
   display: flex; 
