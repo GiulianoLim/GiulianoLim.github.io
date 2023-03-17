@@ -3,19 +3,19 @@
    display: flex;
    justify-content: center;
    flex-flow: row wrap;
-   gap: 100px;
-   padding-top: 80px;
+   gap: 20%;
+   padding-left: 50px;
    border-top: 2px solid rgba(0,0,0, 0.15);
    flex: 1 1;
  }
 
-.contacts-section {
-  padding-left: 10%;
-}
+ .contacts-section,
+ .social-section {
+  padding-top: 80px;
+  width: 350px;
+ }
 
-.social-section {
-  padding-right: 10%;
-}
+
 
  .contacts-section .title-medium,
  .social-section .title-medium {
