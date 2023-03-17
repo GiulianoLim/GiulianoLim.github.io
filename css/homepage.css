@@ -84,6 +84,7 @@
 .text-below {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   gap: 15%;
   margin-top: 160px;
   margin-bottom: 120px;
@@ -94,7 +95,10 @@
   font-weight: 700;
 }
 
-.homepage-text {
-  width: 320px;
+.design-text,
+.free-time-text {
+  width: 320px; 
+  margin-bottom: 60px;
+  padding-left: 50px;
 }
 

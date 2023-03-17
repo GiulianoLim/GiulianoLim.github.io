@@ -2,15 +2,20 @@
  .footer {
    display: flex;
    justify-content: center;
+   flex-flow: row wrap;
    gap: 100px;
-   padding-top: 50px;
+   padding-top: 80px;
    border-top: 2px solid rgba(0,0,0, 0.15);
    flex: 1 1;
  }
 
- .contacts-section {
+.contacts-section {
   padding-left: 10%;
- }
+}
+
+.social-section {
+  padding-right: 10%;
+}
 
  .contacts-section .title-medium,
  .social-section .title-medium {
@@ -19,6 +24,7 @@
   margin-bottom: 20px;
   color: #251749;
  }
+
 
  .footer-text {
   display: flex;
@@ -41,10 +47,7 @@
    font-weight: 500;
  }
 
-  .social-section {
-    padding-left: 10%;
-    padding-right: 10%;
-  } 
+ 
 
  .social-links {
   display: flex; 
